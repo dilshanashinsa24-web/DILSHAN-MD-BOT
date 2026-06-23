@@ -1,7 +1,6 @@
 {
-  "name": "whatsapp-songs-bot",
+  "name": "dilshan-md-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Songs Downloader Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
