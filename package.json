@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-songs-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Songs Downloader Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "yt-search": "^2.11.1",
+    "ytdl-core": "^4.11.5",
+    "pino": "^9.4.0"
+  }
+}
