@@ -2,7 +2,7 @@ const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = requi
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const pino = require('pino');
-
+const config = require('./config.js');
 async function startBot() {
     const { state, saveCreds } = await useMultiFileAuthState('auth_info');
 
