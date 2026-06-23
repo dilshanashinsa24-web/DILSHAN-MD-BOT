@@ -68,7 +68,12 @@ async function startBot() {
         }
 
         // Help command
-        if (text === '.help') {
+
+if (text === config.PREFIX + 'help') {
+    await sock.sendMessage(jid, {
+        text: `🎵 *${config.BOT_NAME}*\n\n.commands:\n${config.PREFIX}song [song name] - Song එක download කරලා එවනවා\n${config.PREFIX}help - මේ menu එක\nExample: ${config.PREFIX}song Shape of You`
+    });
+}
             await sock.sendMessage(jid, {
                 text: `🎵 *WhatsApp Songs Bot*\n\n.commands:\n.song [song name] - Song එක download කරලා එවනවා\n.help - මේ menu එක\nExample:.song Shape of You`
             });
